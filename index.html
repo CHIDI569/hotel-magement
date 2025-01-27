@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel management system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>MARVIS HOTEL</h1>
+    <div class="table">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone number</th>
+                <th>Address</th>
+                <th>Room No</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+
+            <tr class="td">
+                <td>Wills Smith</td>
+                <td>Wills@gmail.com</td>
+                <td>+2347025313899</td>
+                <td>no2 ziks aveneu</td>
+                <td>01</td>
+                <td>Active</td>
+                <td><button  class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Miller Wilson</td>
+                <td>Miller@gmail.com</td>
+                <td>+2349122875686</td>
+                <td>no47 ziks aveneu</td>
+                <td>02</td>
+                <td>Active</td>
+                <td><button  class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Thamos Jackson</td>
+                <td>Thomas@gmail.com</td>
+                <td>+2349025313878</td>
+                <td>no88 ziks aveneu</td>
+                <td>03</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Walker Lee</td>
+                <td>Lee@gmail.com</td>
+                <td>+2348025313890</td>
+                <td>no56 ziks aveneu</td>
+                <td>04</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Harris Martin</td>
+                <td>Martin@gmail.com</td>
+                <td>+2347125313896</td>
+                <td>no74 ziks aveneu</td>
+                <td>05</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Scott Hills</td>
+                <td>Scott@gmail.com</td>
+                <td>+2347125313898</td>
+                <td>no89 ziks aveneu</td>
+                <td>06</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>King Allen</td>
+                <td>Allen@gmail.com</td>
+                <td>+2347125313879</td>
+                <td>no77 ziks aveneu</td>
+                <td>07</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)" >Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Avery Smith</td>
+                <td>Avery@gmail.com</td>
+                <td>+2347025313899</td>
+                <td>no88 ziks aveneu</td>
+                <td>08</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Emerson Finley</td>
+                <td>Finley@gmail.com</td>
+                <td>+2347125313876</td>
+                <td>no97 ziks aveneu</td>
+                <td>09</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Makenzie Everly</td>
+                <td>Makenzie@gmail.com</td>
+                <td>+2347125313865</td>
+                <td>no99 ziks aveneu</td>
+                <td>10</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Quinn Tatum</td>
+                <td>Quinn@gmail.com</td>
+                <td>+2347125313855</td>
+                <td>no98 ziks avenue</td>
+                <td>11</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Kennedy Harper</td>
+                <td>Harper@gmail.com</td>
+                <td>+2347025313822</td>
+                <td>no75 ziks aveneu</td>
+                <td>12</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Hunter Cater</td>
+                <td>Hunter@gmail.com</td>
+                <td>+2347025313833</td>
+                <td>no78 ziks aveneu</td>
+                <td>13</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Peter Paker</td>
+                <td>Paker@gmail.com</td>
+                <td>+2347025313855</td>
+                <td>no28 ziks aveneu</td>
+                <td>14</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Taylor Hemes</td>
+                <td>Taylor@gmail.com</td>
+                <td>+2349125313899</td>
+                <td>no29 ziks aveneu</td>
+                <td>15</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Debbie Ashley</td>
+                <td>Ashley@gmail.com</td>
+                <td>+2348125313899</td>
+                <td>no27 ziks aveneu</td>
+                <td>16</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Louise Gagnon</td>
+                <td>Louise@gmail.com</td>
+                <td>+23471125313899</td>
+                <td>no2 ziks aveneu</td>
+                <td>17</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>sylvie Roy</td>
+                <td>Roy@gmail.com</td>
+                <td>+2349125313899</td>
+                <td>no24 ziks aveneu</td>
+                <td>18</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Helen Smith</td>
+                <td>Helen@gmail.com</td>
+                <td>+2348025313899</td>
+                <td>no57 ziks aveneu</td>
+                <td>19</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Mary Smith</td>
+                <td>Mary@gmail.com</td>
+                <td>+2347025313866</td>
+                <td>no56 ziks aveneu</td>
+                <td>20</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Susan Evelyn</td>
+                <td>Susan@gmail.com</td>
+                <td>+2347025313877</td>
+                <td>no19 ziks aveneu</td>
+                <td>21</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            <tr>
+                <td>Charlotte Sophia</td>
+                <td>Sophia@gmail.com</td>
+                <td>+2347025313888</td>
+                <td>no15 ziks aveneu</td>
+                <td>22</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Sandra Margaret</td>
+                <td>Margaret@gmail.com</td>
+                <td>+2347025313899</td>
+                <td>no12 ziks aveneu</td>
+                <td>23</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Nancy Olivia</td>
+                <td>Olivia@gmail.com</td>
+                <td>+2347021213899</td>
+                <td>no11 ziks aveneu</td>
+                <td>24</td>
+                <td>Active</td>
+                <td><button  class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Annabel Smith</td>
+                <td>Smith@gmail.com</td>
+                <td>+2347022313899</td>
+                <td>no10 ziks aveneu</td>
+                <td>25</td>
+                <td>Active</td>
+                <td><button  class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Eve Jackson</td>
+                <td>Eve@gmail.com</td>
+                <td>+2347123313899</td>
+                <td>no9 ziks aveneu</td>
+                <td>26</td>
+                <td>Active</td>
+                <td><button  class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Joshua wills</td>
+                <td>Josh@gmail.com</td>
+                <td>+2349024312899</td>
+                <td>no5 ziks aveneu</td>
+                <td>27</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Charles Smith</td>
+                <td>Charles@gmail.com</td>
+                <td>+2348025313899</td>
+                <td>no3 ziks aveneu</td>
+                <td>28</td>
+                <td>Active</td>
+                <td><button  class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Frank Mills</td>
+                <td>Frank@gmail.com</td>
+                <td>+2347024356787</td>
+                <td>no 64 new market road</td>
+                <td>29</td>
+                <td>Active</td>
+                <td><button  class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>Anthony Marshals</td>
+                <td>Marshals@gmail.com</td>
+                <td>+2347023418955</td>
+                <td>no 65 new market road</td>
+                <td>30</td>
+                <td>Active</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+        </table>
+    </div>
+   <div class="button">
+    <button onclick="printPage()">Print</button>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
